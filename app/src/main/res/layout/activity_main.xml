@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.student.myfirstapp.MainActivity">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_message"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="42dp"
+        android:text="Larry Kresse"
+        android:textColor="#eb1b1b"
+        android:textIsSelectable="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_message"
+        android:textSize="42dp"
+        android:text="@string/button_send"
+        android:textColor="#151515"
+        android:textIsSelectable="false"
+        android:onClick="send_message" />
+
+
+</LinearLayout>
